@@ -1,0 +1,26 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "\"OOP and testing for week 10 homework\"",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KindraKinney/Template-Engine.git"
+  },
+  "author": "Kindra Kinney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KindraKinney/Template-Engine/issues"
+  },
+  "homepage": "https://github.com/KindraKinney/Template-Engine#readme",
+  "dependencies": {
+    "inquirer": "^7.0.4"
+  }
+}

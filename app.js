@@ -54,3 +54,58 @@ var generateHTML = `
 </header>
 <body>
     <div class="container">`;
+
+// -------Generate Card for Manager -----------------------------------------
+function generateManagerHTML(manager) {
+    return manager =
+      `<div class="card text-white mb-3" style="width: 18rem;">
+              <div class="card-header">
+                  <h3>${manager.name}</h3>
+                  <h5 class="card-title"><i class="fas fa-mug-hot"></i> Manager</h5>
+              </div>
+      <div class="card-body">
+        <p class="card-text">
+                      <li><b>ID:</b> ${manager.id}</li><hr>
+                      <li><b>E-mail:</b> ${manager.email}</li><hr>
+                      <li><b>Office Number:</b> ${manager.officeNumber}</li>
+          </p>
+      </div>
+    </div>`;
+  }
+  
+  //-------Generate Card for Engineer -------------------------------------------
+  function generateEngineerHTML(engineer) {
+    return engineer =
+      `<div class="card text-white mb-3" style="width: 18rem;">
+              <div class="card-header">
+                  <h3>${engineer.name}</h3>
+                  <h5 class="card-title"><i class="fas fa-glasses"></i> Engineer</h5>
+              </div>
+      <div class="card-body">
+        <p class="card-text">
+                      <li><b>ID:</b> ${engineer.id}</li><hr>
+                      <li><b>E-mail:</b> ${engineer.email}</li><hr>
+                      <li><b>Github:</b> ${engineer.github}</li>
+          </p>
+      </div>
+    </div>`;
+  };
+  
+  
+  //--------Generate Card for Intern -----------------------------------------------
+  function generateInternHTML(intern) {
+    return intern =
+      ` <div class="card text-white mb-3" style="width: 18rem;">
+              <div class="card-header">
+                  <h3>${intern.name}</h3>
+                  <h5 class="card-title"><i class="fas fa-user-graduate"></i> Intern</h5>
+              </div>
+      <div class="card-body">
+        <p class="card-text">
+                      <li><b>ID:</b> ${intern.id}</li><hr>
+                      <li><b>E-mail:</b> ${intern.email}</li><hr>
+                      <li><b>School:</b> ${intern.school}</li>
+          </p>
+      </div>
+    </div>`;
+  } 
